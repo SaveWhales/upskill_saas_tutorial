@@ -15,11 +15,11 @@ gem 'coffee-rails', '4.1.1'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '4.2.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '5.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5.0'
+gem 'jbuilder', '2.5.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '3.0'
 # Use ActiveModel has_secure_password
@@ -32,7 +32,10 @@ gem 'jbuilder', '~> 2.5.0'
 gem 'bootstrap-sass', '3.3.7'
 
 # Use Font Awsome saas geom for adding icons
-gem 'font-awesome-sass', '~> 4.6.2'
+gem 'font-awesome-sass', '4.6.2'
+
+# Use Hirb for better database table display in console
+gem 'hirb','0.7.3'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -58,3 +61,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 ruby '2.3.0'
+
