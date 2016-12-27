@@ -3,7 +3,6 @@
 // Document ready.
 $(document).on('turbolinks:load', function(){
   var theForm = $('#pro_form');
-// INSTRUCTOR USED '#form-submit-btn' ****************************************
   var submitBtn = $('#form-signup-btn');
 
   // Set Strip public key.
@@ -67,4 +66,4 @@ $(document).on('turbolinks:load', function(){
     // Submit form to our Rails app.
     theForm.get(0).submit();
   }
-})
+});
